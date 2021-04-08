@@ -4,9 +4,7 @@ import { TextInput, ScrollView, TouchableOpacity } from 'react-native-gesture-ha
 import { LinearGradient } from 'expo-linear-gradient';
 import { NavigationContainer } from '@react-navigation/native';
 
-import { Detail } from '../screens/Detail';
-
-const Home = () => {
+const Home = ({ navigation }) => {
     return (
     
      <View style={{

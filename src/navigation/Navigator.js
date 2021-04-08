@@ -57,6 +57,19 @@ const BottomTabNavigator = () => {
             }}
             >
             </Tab.Screen>
+
+            <Tab.Screen
+            name="Detail"
+            component={Detail}
+            options={{
+                tabBarLabel: "",
+                tabBarIcon:({color, size}) => (
+                    <Image source={require("../images/3.png")} style={{height:20, width: 20}}></Image>
+                )
+            }}
+            style={{}}
+            >
+            </Tab.Screen>
             
         </Tab.Navigator>
     )
